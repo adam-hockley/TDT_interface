@@ -3,10 +3,7 @@
 clear
 clc
 
-% folder = 'Z:\Mike\Analysis\MatlabCode\TDT_Matlab_Parameters';
-folder = '\\maize.umhsnas.med.umich.edu\khri-ses-lab\Mike\Analysis\MatlabCode\TDT_Matlab_Parameters\';
-%  folder = 'Z:\RobertsLab\TDT_ParamFiles\';
-% folder = 'Z:\Lorraine\Matlab\TDT_ParamFiles\';
+folder = 'Z:\Adam\Matlab\TDT_ParamFiles\';
 
 
 filename = 'RF';
@@ -14,7 +11,7 @@ newfilename = 'RF';
 
 load([folder filename]) % Load old parameter file to check previous setting for this thing
 
-%% Set parameters, either one line at a time if editing, or all lines
+%% Set parameters, either one line at a time if editing, or all lines to create new
 
 param.period = 5000;
 param.reps = 2;
